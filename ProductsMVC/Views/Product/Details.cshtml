@@ -1,0 +1,31 @@
+﻿@model ProductsMVC.Models.Product
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Product Details</title>
+</head>
+<body>
+    <h1>Product Details</h1>
+    <div>
+        <strong>ID:</strong> @Model.ID
+    </div>
+    <div>
+        <strong>Name:</strong> @Model.Name
+    </div>
+    <div>
+        <strong>Category:</strong> @Model.Category
+    </div>
+    <div>
+        <strong>Price:</strong> @Model.Price
+    </div>
+    <div>
+        <strong>Units In Stock:</strong> @Model.UnitsInStock
+    </div>
+</body>
+</html>
